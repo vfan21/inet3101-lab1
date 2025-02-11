@@ -29,9 +29,9 @@ void addRecord() {
     printf("You entered\n");
     printf("Part number = %d\n", partNum);
     printf("Part name = %s\n", partName);
-    printf("Part size = %f\n", partSize);
+    printf("Part size = %.2f\n", partSize);
     printf("Part size metric = %s\n", partSizeMetric);
-    printf("Part cost = $%f\n", partCost);
+    printf("Part cost = $%.2f\n", partCost);
 }
 
 void deleteRecord() {
